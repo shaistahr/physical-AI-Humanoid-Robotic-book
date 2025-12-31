@@ -1,0 +1,25 @@
+fastapi
+uvicorn[standard]
+openai-agents
+qdrant-client
+sqlalchemy
+asyncpg
+python-dotenv
+beautifulsoup4
+requests
+tiktoken
+pydantic
+httpx
+pytest
+pytest-asyncio
+python-multipart
+pillow
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database Migrations
+alembic==1.13.1
+
+# Google AI
+google-generativeai

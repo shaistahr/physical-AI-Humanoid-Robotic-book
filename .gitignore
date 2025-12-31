@@ -1,0 +1,85 @@
+# Environment variables
+.env
+backend/.env
+.venv
+.sdd
+# Gemini settings
+.gemini/settings.json
+.qwen/settings.json
+
+#node modules
+website/node_modules
+
+#docusaurus
+website/.docusaurus
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Next.js (if added)
+.next/
+out/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Secrets
+*.pem
+*.key
+.env.local
+.env.*.local
+
+# Temp
+*.tmp
+.temp/
