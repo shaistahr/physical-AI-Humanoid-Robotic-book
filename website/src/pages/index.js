@@ -134,7 +134,7 @@ const styles = {
 
   hero: {
     padding: "4rem 2rem",
-    background: "#0d0d0d",
+    background: "linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #1E3A8A 100%)",
     color: "white",
   },
 
@@ -154,7 +154,7 @@ const styles = {
   bookImage: {
     width: "100%",
     borderRadius: "18px",
-    boxShadow: "0px 10px 30px rgba(0, 255, 255, 0.25)",
+    boxShadow: "0px 10px 40px rgba(139, 92, 246, 0.4)",
     animation: "float 5s infinite ease-in-out",
   },
 
@@ -210,15 +210,15 @@ const styles = {
 
   primary: {
     padding: "0.8rem 1.4rem",
-    background: "white",
-    color: "black",
+    background: "linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%)",
+    color: "white",
     borderRadius: "26px",
     fontWeight: "bold",
     textDecoration: "none",
   },
 
   footer: {
-    background: "#0a0a0a",
+    background: "linear-gradient(135deg, #1E1B4B 0%, #312E81 100%)",
     color: "#bbb",
     padding: "2rem",
     marginTop: "4rem",
