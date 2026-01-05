@@ -1,0 +1,45 @@
+# Backend files (not needed for website deployment)
+backend/
+.venv/
+venv/
+
+# Specification files
+specs/
+history/
+.specify/
+.qwen/
+
+# Git
+.git/
+
+# IDE
+.vscode/
+.claude/
+
+# Environment files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules (will be installed during build)
+node_modules/
+
+# Build artifacts
+website/.docusaurus/
+website/build/
+website/node_modules/
